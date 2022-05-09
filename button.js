@@ -11,7 +11,7 @@ actionCta2.addEventListener('click', () => {
 
 async function displayButton(){
   // alterar somente o numero dos minutos
-  const minute = 20.40;
+  const minute = 21;
   const timeInMiliseconds = await convertMinutesToMiliseconds(minute);
 
   setTimeout(() => {
